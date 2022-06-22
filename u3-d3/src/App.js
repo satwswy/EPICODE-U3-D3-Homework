@@ -12,7 +12,7 @@ function App() {
       <WarningSign msg="hello"/>
       <MyBadge text="hello world" textColor="blue" />
       {/* <SingleBook book={bookArray[0]}/> */}
-      <BookList books = {bookArray}/>
+       <BookList books = {bookArray}/> 
     </div>
   );
 }
