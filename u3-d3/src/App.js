@@ -14,7 +14,7 @@ function App() {
       <header className='App=header'>
         <WarningSign text="Watch out!"/>
         <MyBadge text="NEW!" color="info"/>
-        <SingleBook book={fantasyBooks[0]}/>
+        {/* <SingleBook book={fantasyBooks[0]}/> */}
         <BookList books={fantasyBooks} />
 
       </header>
