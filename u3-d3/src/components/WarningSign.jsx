@@ -1,25 +1,8 @@
-import { Alert } from "react-bootstrap"
+import {Alert} from 'react-bootstrap'
 
-const WarningSign = ({ msg }) => {
-    return (
-        <>
-
-            {[
-
-
-
-                'danger',
-
-
-
-            ].map((variant) => (
-                <Alert key={variant} variant={variant}>
-                    This is a {msg} alert—check it out!
-                </Alert>
-            ))}
-        </>
-
-    )
-}
+const WarningSign = (props) => (
+    <Alert variant='danger'>{props.text}</Alert>
+)
 
 export default WarningSign
+
